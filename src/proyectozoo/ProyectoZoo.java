@@ -18,25 +18,26 @@ public class ProyectoZoo {
 
             switch (opcionSeleccionada) {
                 case 0:
-                    // Registro de animales
+                    RegistroAnimales.ejecutarPrograma();
+                    
                        
-                    // Implementa la lógica para añadir, eliminar, modificar y buscar animales
                     break;
                 case 1:
-                    // Registro de Hábitats
-                    // Implementa la lógica para gestionar hábitats
+                    habitat.ejecutarPrograma(); 
+                    
                     break;
                 case 2:
-                    // Registro de Eventos
-                    // Implementa la lógica para registrar eventos
+                    
+                    evento.ejecutarPrograma();
+                    
                     break;
                 case 3:
-                    // Registro de Visitantes
-                    // Implementa la lógica para llevar un registro de visitantes y obtener información requerida
+                    
+                    visitantes.ejecutarPrograma();        
                     break;
                 case 4:
-                    // Gestión de Alimentación
-                    // Implementa la lógica para registrar horarios de alimentación y alimentos consumidos por los animales
+                       
+                    alimentacion.ejecutarPrograma();    
                     break;
                 case 5:
                     // Mapa de Animales
