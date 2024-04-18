@@ -38,7 +38,7 @@ public class alimentacion {
 
             switch (opcionSeleccionada) {
                 case 0:
-                    // Registrar Alimentación
+                    
                     String nombreAnimal = JOptionPane.showInputDialog("Ingrese el nombre del animal:");
                     String horario = JOptionPane.showInputDialog("Ingrese el horario de alimentación:");
                     String alimento = JOptionPane.showInputDialog("Ingrese el alimento:");
@@ -56,7 +56,7 @@ public class alimentacion {
                     JOptionPane.showMessageDialog(null, "Registro de alimentación realizado correctamente.");
                     break;
                 case 1:
-                    // Mostrar Todos
+                   
                     StringBuilder listaCompleta = new StringBuilder("Registros de alimentación:\n");
                     if (registro1 != null)
                         listaCompleta.append(registro1.toString()).append("\n");
