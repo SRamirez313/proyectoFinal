@@ -57,7 +57,7 @@ public class evento {
                     JOptionPane.showMessageDialog(null, "Evento registrado correctamente.");
                     break;
                 case 1:
-                    // Mostrar Todos
+                   
                     StringBuilder listaCompleta = new StringBuilder("Eventos registrados:\n");
                     if (evento1 != null)
                         listaCompleta.append(evento1.toString()).append("\n");
@@ -68,7 +68,7 @@ public class evento {
                     JOptionPane.showMessageDialog(null, listaCompleta.toString());
                     break;
                 case 2:
-                    // Salir
+                    
                     JOptionPane.showMessageDialog(null, "Saliendo del programa...");
                     break;
                 default:
