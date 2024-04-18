@@ -114,7 +114,7 @@ public class RegistroAnimales {
                     JOptionPane.showMessageDialog(null, listaCompleta.toString());
                     break;
                 case 5:
-                    // Volver al menú principal
+                    
                     break;
                 default:
                     JOptionPane.showMessageDialog(null, "Opción no válida");
