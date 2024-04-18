@@ -67,7 +67,7 @@ public class alimentacion {
                     JOptionPane.showMessageDialog(null, listaCompleta.toString());
                     break;
                 case 2:
-                    // Salir
+
                     JOptionPane.showMessageDialog(null, "Saliendo del programa...");
                     break;
                 default:
