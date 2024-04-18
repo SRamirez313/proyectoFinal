@@ -14,7 +14,7 @@ class Visitante {
         this.fechaIngreso = fechaIngreso;
     }
 
-    @Override
+    
     public String toString() {
         return "Nombre: " + nombre + ", Edad: " + edad + ", Fecha de Ingreso: " + fechaIngreso;
     }
@@ -38,7 +38,7 @@ public class visitantes {
 
             switch (opcionSeleccionada) {
                 case 0:
-                    // Registrar Visitante
+                    
                     String nombre = JOptionPane.showInputDialog("Ingrese el nombre del visitante:");
                     int edad = Integer.parseInt(JOptionPane.showInputDialog("Ingrese la edad del visitante:"));
                     String fechaIngreso = JOptionPane.showInputDialog("Ingrese la fecha de ingreso del visitante:");
@@ -56,7 +56,7 @@ public class visitantes {
                     JOptionPane.showMessageDialog(null, "Visitante registrado correctamente.");
                     break;
                 case 1:
-                    // Mostrar Todos
+                  
                     StringBuilder listaCompleta = new StringBuilder("Visitantes registrados:\n");
                     if (visitante1 != null)
                         listaCompleta.append(visitante1.toString()).append("\n");
@@ -67,7 +67,7 @@ public class visitantes {
                     JOptionPane.showMessageDialog(null, listaCompleta.toString());
                     break;
                 case 2:
-                    // Salir
+                    
                     JOptionPane.showMessageDialog(null, "Saliendo del programa...");
                     break;
                 default:
