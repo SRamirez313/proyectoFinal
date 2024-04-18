@@ -23,9 +23,9 @@ class Animal {
 }
 
 public class RegistroAnimales {
-    private static Animal animal1 = new Animal("León", "Panthera leo", 5, "Savannah");
-    private static Animal animal2 = new Animal("Elefante", "Loxodonta africana", 10, "Savannah");
-    private static Animal animal3 = new Animal("Tigre", "Panthera tigris", 7, "Jungle");
+    private static Animal animal1 = new Animal("León", "felino", 5, "Savana");
+    private static Animal animal2 = new Animal("Elefante", "elefante", 10, "Savana");
+    private static Animal animal3 = new Animal("Tigre", "felino", 7, "Jungla");
 
     public static void ejecutarPrograma() {
         String[] opciones = {"Añadir Animal", "Eliminar Animal", "Modificar Animal", "Buscar Animal", "Mostrar Todos", "Volver"};
