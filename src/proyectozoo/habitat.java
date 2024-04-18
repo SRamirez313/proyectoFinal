@@ -53,7 +53,7 @@ public class habitat {
                     JOptionPane.showMessageDialog(null, "Hábitat registrado correctamente.");
                     break;
                 case 1:
-                    // Mostrar Todos
+                    
                     StringBuilder listaCompleta = new StringBuilder("Hábitats registrados:\n");
                     if (habitat1 != null)
                         listaCompleta.append(habitat1.toString()).append("\n");
@@ -64,7 +64,7 @@ public class habitat {
                     JOptionPane.showMessageDialog(null, listaCompleta.toString());
                     break;
                 case 2:
-                    // Salir
+                    
                     JOptionPane.showMessageDialog(null, "Saliendo del programa...");
                     break;
                 default:
